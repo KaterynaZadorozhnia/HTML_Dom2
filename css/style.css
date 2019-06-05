@@ -1,0 +1,31 @@
+body{
+    width: 70%;
+
+}
+p{
+    font-size: 18px;
+    width: 70%;
+    margin-left: 2%;
+}
+h1{
+    color: darkgreen;
+    margin-left: 2%;
+}
+h3{
+    color: darkgreen;
+    margin-left: 2%;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_list>li>a{
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav_list>li{
+    list-style: none;
+}
